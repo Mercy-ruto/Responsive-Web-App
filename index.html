@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Title -->
+        <title>Responsive Club Web App Page</title>
+        <!-- CSS links -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">  <!-- Bootstrap -->
+        <link href="css/style.css" rel="stylesheet"> 
+
+        <!-- Internal CSS -->
+        <style>
+            .navbar-default {
+    		background-color: rgba(25, 33, 60, 0.8);
+    		border-color: transparent;
+    	    }
+    	
+    	    .navbar-nav { 
+    		margin-top: 40px;
+    		float: right;
+    	    }
+    	
+    	    .navbar-default .navbar-brand {
+    		    margin-top: 20px;
+    		    font-size: 28px;
+    		    font-family: 'Righteous', cursive;
+    		    color: #fff;
+    		    letter-spacing: 1px;
+    	    }
+
+            .navbar-default .navbar-nav>li>a {
+    		    color: #fff;
+    		    font-size: 14px;
+    		    font-family: 'Noto Sans', sans-serif;
+    		    text-transform: uppercase;
+    		    letter-spacing: 1px;
+    	    }
+
+            .navbar-default .navbar-nav>li>a:hover {
+    		    color: #42a5f6;
+    	    }
+            .btn-lg:hover {
+                color:#fff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- Page Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Responsive Club Web App <span>Website</span></a>
+                </div>
+                <!-- Nav links -->
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#events">Events</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>  <!-- /nav links -->
+            </div>  <!-- /.container -->
+        </nav>
+
+        <!-- Full Page Image Background Carousel Header -->
+        <header id="home" style="height: 60%;">
+            <!-- Set the first background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9rUAK2pIb3WWEjf382evcJaxq91q9XP0kPiXe5ScWoTHPsU0tzrbt4XFoZwjuDbshrAM&usqp=CAU');">
+                    <div class="message">
+                        <div>
+                            <h1 style="font-size: 40px;text-transform: uppercase;color:#1a223d">Hi, welcome to our Club Web Page</h1>
+                            <h3 style="font-size: 26px;">Get to know our creative Club!!</h3>
+                        </div>
+                        <button class="btn btn-lg" style="background:#1a223d;">Welcome</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="about">
+            <div class="container">
+                <div class="text">
+                    <h2>About Us</h2>
+                    <hr>
+                    <p>We are a group of young, innovative students studying in various universities across Australia. Our common hobbies and leisure 
+                        activities bring us together and we continue exploring life in our academics and fun filled activities during our free time 
+                        and monthly meetups. Want to know more read on.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-6">
+                        <div class="text">
+                            <h3 class="title-text"> Club Formation</h3>
+                            <p style="text-align: left;">This club was formed in the year 2020 by our two patron members on their vacation in Canada then being great friends. 
+                                Thereafter, following a successful vacation, they decided to come up with efforts to bring in like minded students,
+                                pursuing computer science and other Information technolgy fields. In the year 2021, 10 new members had already joined
+                                increasing the strength of the young association which in the following years to date has seen its evolution into a 
+                                giant student Tech Club among Australian students.
+                            </p>
+                            <hr>
+                            <p style="color:#2469A2;"> <em> Check our group photo below/beside taken on last year's Annual Meeting </em> </p>
+                        </div>
+                    </div>
+
+                    <!-- Column -->
+                    <div class="col-lg-6">
+                        <div style="margin-top: 20px;border:2px solid #1a223d;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5jWuC9uSGGzS8W70V-KSQIL5Cs02Qi4iEQQ&usqp=CAU" alt="" style="height:350px;background-size: cover;">
+                        </div>
+                    </div>
+                </div> <!-- row -->
+                 
+            </div>
+        </div>
+
+        <div id="events">
+            <div class="container">
+                <h2>Our Events</h2>
+                <p> We love holding meetings and participating in various activities hence we always have events every month and annually each year. 
+                    Check out our table of events below.
+                </p>
+                <hr>
+
+                <div class="">
+                    <!-- Table-->
+                    <table class="table table-bordered" style="color:#fff;">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Location</th>
+                                <th>Venue</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>August breakfast</td>
+                                <td>Sydney</td>
+                                <td>Park Hotel</td>
+                                <td>15/08/2023</td>
+                                <td>9.00 AM</td>
+                            </tr>
+
+                            <tr>
+                                <td>September Mingle</td>
+                                <td>Melbourne</td>
+                                <td>Beach Inn park</td>
+                                <td>20/09/2023</td>
+                                <td>10.00 AM</td>
+                            </tr>
+
+                            <tr>
+                                <td>October Workshop</td>
+                                <td>Durban</td>
+                                <td>Durban Hotel</td>
+                                <td>29/10/2023</td>
+                                <td>9.30 AM</td>
+                            </tr>
+
+                            <tr>
+                                <td>Annual Conference</td>
+                                <td>London</td>
+                                <td>Cottage Park Hotel</td>
+                                <td>15/12/2023</td>
+                                <td>11.00 AM</td>
+                            </tr>
+
+                        </tbody>
+                    </table>   <!-- /table -->
+                </div>
+
+                <p style="color:#2469A2;"> 
+                    <em> <b>NB:</b>Those wishing to join us are welcome and can join us in any of our events and 
+                        become members thereafter.
+                    </em> 
+                </p>
+
+            </div>
+            
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>  
+                <p>Have anything to say? Reach us using below form.</p>
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <!-- Contact Form -->
+                        <form action="#" method="post">
+                            <input id="name" name="name" type="text" placeholder="Name:" required>
+                            <input id="email" name="email" type="text" placeholder="Email:" required>
+                            <input id="subject" name="subject" type="subject" placeholder="Subject:" required>
+                            <textarea id="message" name="message" placeholder="Your Message:" rows="5" required></textarea>
+                            <br>
+                            <button name="submit" id="submit" type="submit">Send Message</button>
+                        </form>  <!-- /form -->
+                    </div>  
+                </div>	
+            </div>   
+        </div>
+
+        <footer>
+            <div class="container">
+                <p style="color:#fff;">Copyright @ 2023 | All Rights Reserved.</p>
+           </div>
+        </footer>
+
+    </body>
+
+</html>
